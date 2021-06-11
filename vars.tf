@@ -74,14 +74,12 @@ variable "diagnostics_storage_account_name" {
 variable "admin_password" {
   description = "The password to assign to the new Admin user account."
   type        = string
-  sensitive   = true
 }
 
 variable "admin_username" {
   description = "The username to assign tot he new VMs admin user account"
   default     = "adminuser"
   type        = string
-  sensitive   = true
 }
 
 variable "storage_os_disk_config" {
